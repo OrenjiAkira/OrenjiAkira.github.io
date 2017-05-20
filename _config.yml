@@ -28,6 +28,3 @@ github_username:  jekyll
 markdown: kramdown
 theme: minima
 
-source: _source
-destination: _deploy
-
