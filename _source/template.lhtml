@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>${title} | ${page_title}</title>
-    <link rel="stylesheet" src="${home_url}/style.css" />
+    <link rel="stylesheet" href="${home_url}/style.css" />
   </head>
   <body>
     <header class="header">
