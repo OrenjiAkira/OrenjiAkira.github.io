@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>${title} | ${page_title}</title>
+    <link src="/site/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      ${header_template}
+    </header>
+    <div class="content">
+      ${page_content}
+    </div>
+    <footer class="footer">
+      ${footer_template}
+    </footer>
+  </body>
+</html>
