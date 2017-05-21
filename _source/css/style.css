@@ -1,5 +1,6 @@
 @import url('https://necolas.github.io/normalize.css/7.0.0/normalize.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700,t00i');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
 /* This is a comment */
 
@@ -15,11 +16,17 @@ html {
 
 body {
   margin: 0;
-  padding: 0 15px;
+  padding: 0 32px;
   font-size: 14px;
   font-family: "Roboto", helvetica, arial, sans-serif;
   line-height: 1.5em;
 }
+/*
+h1 small {
+  display: inline-block;
+  padding: 5px 0;
+  color: #808080;
+}*/
 
 .header {
   height: 50px;

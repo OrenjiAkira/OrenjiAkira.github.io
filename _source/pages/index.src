@@ -2,4 +2,4 @@
 title: Home
 ---
 
-<h1>${title}<div><small>coming soon</small></div></h1>
+<h1 class="text-center">${title}<div><small>coming soon</small></div></h1>
