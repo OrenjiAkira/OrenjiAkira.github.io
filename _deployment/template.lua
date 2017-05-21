@@ -30,7 +30,6 @@ for _,filepath in ipairs(source) do
     targetpath = targetpath .. target .. ".html"
   else
     targetpath = targetpath .. target .. "/index.html"
-    os.execute("mkdir " .. "site/" .. target)
   end
   print("WRITING: " .. targetpath)
 

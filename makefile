@@ -1,15 +1,21 @@
+PAGE_SOURCES=_source/*.src
 
+.PHONY: all
 
 all: dir css template redirect
 
 dir:
-	find _source/*.src | cat
+	for file in ${PAGE_SOURCES}; do \
+		filename=$$(basename $$file .src); \
+		dirname=$$(echo $$filename | sed -E "s/$$filename/site\/$$filename/"); \
+		if [[ $$dirname == "site/index" ]]; then continue; fi; \
+		mkdir -p $$dirname; done
 
 css:
 	lua _deployment/css.lua < _source/css/style.css
 
 template:
-	find _source/*.src | xargs lua _deployment/template.lua
+	find ${PAGE_SOURCES} | xargs lua _deployment/template.lua
 
 redirect:
 	lua _deployment/redirect.lua
