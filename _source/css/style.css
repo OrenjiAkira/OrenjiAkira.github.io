@@ -15,9 +15,12 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 15px;
   font-size: 14px;
   font-family: "Roboto", helvetica, arial, sans-serif;
   line-height: 1.5em;
 }
 
+.header {
+  height: 50px;
+}

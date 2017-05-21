@@ -1,11 +1,11 @@
 
 local main_dict = require 'metainfo'
 
-local function applytheme(str)
+local function applytheme(str, dict)
   local out = str:gsub("[$][{].-[}]", function(expr)
     local var = expr:match("[{](.-)[}]")
     print(var, main_dict[var])
-    return main_dict[var]
+    return main_dict[var] or dict[var]
   end)
   print("applied theme", out)
   return out
@@ -21,7 +21,7 @@ return function (str)
   end
   dict.page_title = dict.title or "Page Title"
   dict.title = nil
-  dict.page_content = applytheme(content)
+  dict.page_content = applytheme(content, dict)
   dict.__index = dict
   return dict
 end

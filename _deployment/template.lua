@@ -1,7 +1,7 @@
 
 local source = {...}
 local dict = require 'metainfo'
-local template = "_source/template.lhtml"
+local template = "_source/template/main.lhtml"
 
 local function applytheme(str)
   local out = str:gsub("[$][{].-[}]", function(expr)
@@ -14,7 +14,7 @@ local function applytheme(str)
 end
 
 local function get_theme_part(part)
-  local filepath = "_source/" .. part .. ".lhtml"
+  local filepath = "_source/template/" .. part .. ".lhtml"
   local file = io.open(filepath, "r")
   local str = file:read("*a")
   local out = applytheme(str)

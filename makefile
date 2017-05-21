@@ -1,4 +1,4 @@
-PAGE_SOURCES=_source/*.src
+PAGE_SOURCES=_source/pages/*.src
 
 .PHONY: all
 
