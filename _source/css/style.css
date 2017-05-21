@@ -15,6 +15,7 @@ html {
 }
 
 body {
+  background-color: #d8e0e0;
   margin: 0;
   padding: 0 32px;
   font-size: 14px;
@@ -33,6 +34,8 @@ h1 small {
 }
 
 .content {
+  padding: 32px;
+  background-color: #f0f0f0;
   max-width: 768px;
   margin: 0 auto;
 }

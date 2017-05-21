@@ -1,24 +1,24 @@
-PAGE_SOURCES=_source/pages/*.src
+PAGES=_source/pages/
+TESTS=_tests/*.lua
 
 .PHONY: all
 
-all: dir css template redirect
+all: dir template css redirect
 
 dir:
-	for file in ${PAGE_SOURCES}; do \
-		filename=$$(basename $$file .src); \
-		dirname=$$(echo $$filename | sed -E "s/$$filename/site\/$$filename/"); \
-		if [[ $$dirname == "site/index" ]]; then continue; fi; \
-		mkdir -p $$dirname; done
+	./_build/page_folders.sh ${PAGES}
+
+template:
+	./_build/page_template.sh ${PAGES}
 
 css:
 	lua _deployment/css.lua < _source/css/style.css
-
-template:
-	find ${PAGE_SOURCES} | xargs lua _deployment/template.lua
 
 redirect:
 	lua _deployment/redirect.lua
 
 test:
-	find *.lua | xargs lua
+	find ${TESTS} | xargs lua
+
+clean:
+	rm -r site/*

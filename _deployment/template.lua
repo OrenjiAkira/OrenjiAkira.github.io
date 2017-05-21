@@ -28,20 +28,26 @@ get_theme_part("footer")
 
 -- read file, apply theme, do stuff
 for _,filepath in ipairs(source) do
+  print()
   print("READING: " .. filepath)
+  print()
+  print("open file (read)", filepath)
   local file = io.open(filepath, "r")
   local fileinfo = file:read("*a")
   local page = require '_deployment/pageinfo' (fileinfo)
   setmetatable(dict, page)
   file:close()
+  print("close file")
 
-  local file = io.open(template, "r")
+  print("open file (read)", filepath)
+  file = io.open(template, "r")
   local str = file:read("*a")
   local out = applytheme(str)
   file:close()
+  print("close file")
 
   local targetpath = "site/"
-  local target = filepath:match(".*/(.-)[.].*")
+  local target = filepath:match(".+/(.*)[.].*")
   if (target == "index") then
     targetpath = targetpath .. target .. ".html"
   else
@@ -49,7 +55,10 @@ for _,filepath in ipairs(source) do
   end
   print("WRITING: " .. targetpath)
 
+  print("open file (write)", filepath)
   file = io.open(targetpath, "w")
+  print(type(file), out)
   file:write(out)
   file:close()
+  print("close file")
 end
