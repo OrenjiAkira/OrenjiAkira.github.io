@@ -9,7 +9,7 @@ dir:
 	./_build/page_folders.sh ${PAGES}
 
 template:
-	./_build/page_template.sh ${PAGES}
+	./_build/page_template.sh
 
 css:
 	lua _deployment/css.lua < _source/css/style.css

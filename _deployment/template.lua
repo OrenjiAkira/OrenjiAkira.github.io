@@ -32,14 +32,14 @@ for _,filepath in ipairs(source) do
   print("READING: " .. filepath)
   print()
   print("open file (read)", filepath)
-  local file = io.open(filepath, "r")
+  local file, e = io.open(filepath, "r")
   local fileinfo = file:read("*a")
   local page = require '_deployment/pageinfo' (fileinfo)
   setmetatable(dict, page)
   file:close()
   print("close file")
 
-  print("open file (read)", filepath)
+  print("open file (read)", template)
   file = io.open(template, "r")
   local str = file:read("*a")
   local out = applytheme(str)
@@ -47,17 +47,20 @@ for _,filepath in ipairs(source) do
   print("close file")
 
   local targetpath = "site/"
-  local target = filepath:match(".+/(.*)[.].*")
-  if (target == "index") then
+  local target = filepath:match(".-/pages/(.*)[.].*")
+  print("### TARGET FILE ###")
+  print(target)
+  print()
+  if (target:match("index")) then
     targetpath = targetpath .. target .. ".html"
   else
     targetpath = targetpath .. target .. "/index.html"
   end
   print("WRITING: " .. targetpath)
 
-  print("open file (write)", filepath)
-  file = io.open(targetpath, "w")
-  print(type(file), out)
+  print("open file (write)", targetpath)
+  file, e = io.open(targetpath, "w")
+  assert(file, e)
   file:write(out)
   file:close()
   print("close file")
