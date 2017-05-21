@@ -2,9 +2,4 @@
 title: Home
 ---
 
-# orenjiAkira
-
-What is going on here?
-
-
-
+<h1>${title}<div><small>coming soon</small></div></h1>

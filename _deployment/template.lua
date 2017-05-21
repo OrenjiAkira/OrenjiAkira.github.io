@@ -6,18 +6,34 @@ local template = "_source/template.lhtml"
 local function applytheme(str)
   local out = str:gsub("[$][{].-[}]", function(expr)
     local var = expr:match("[{](.-)[}]")
+    print(var, dict[var])
     return dict[var]
   end)
+  print("applied theme", out)
   return out
 end
+
+local function get_theme_part(part)
+  local filepath = "_source/" .. part .. ".lhtml"
+  local file = io.open(filepath, "r")
+  local str = file:read("*a")
+  local out = applytheme(str)
+  file:close()
+  dict[part .. "_template"] = out
+end
+
+-- load template files
+get_theme_part("header")
+get_theme_part("footer")
 
 -- read file, apply theme, do stuff
 for _,filepath in ipairs(source) do
   print("READING: " .. filepath)
-  local fileinfo = io.open(filepath, "r"):read("*a")
+  local file = io.open(filepath, "r")
+  local fileinfo = file:read("*a")
   local page = require '_deployment/pageinfo' (fileinfo)
   setmetatable(dict, page)
-  io.input():close()
+  file:close()
 
   local file = io.open(template, "r")
   local str = file:read("*a")
