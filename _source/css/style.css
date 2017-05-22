@@ -41,12 +41,12 @@ h4 {
 }
 
 .header, .footer {
-  height: 64px;
+  height: auto;
 }
 
 @media (min-width: 768px) {
   .header, .footer {
-    height: auto;
+    height: 64px;
   }
 }
 
