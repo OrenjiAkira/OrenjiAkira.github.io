@@ -1,5 +1,4 @@
 PAGES=_source/pages/
-ASSETS=_source/assets/
 TESTS=_tests/*.lua
 
 .PHONY: all
@@ -17,9 +16,6 @@ css:
 
 redirect:
 	lua _deployment/redirect.lua
-
-assets:
-	cp -r ${ASSETS} site/assets
 
 test:
 	find ${TESTS} | xargs lua
