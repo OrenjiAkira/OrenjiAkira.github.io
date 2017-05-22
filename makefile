@@ -34,3 +34,7 @@ test:
 
 clean:
 	rm -r site/*
+
+update-workshop:
+	cd ${PAGES}workshop; git add . && git commit && git push && \
+	cd .. && git add workshop && git commit -m "Update workshop submodule"
