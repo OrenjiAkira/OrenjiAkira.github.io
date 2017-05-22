@@ -70,6 +70,19 @@ h4 {
   text-align: center;
 }
 
+.exercise {
+  border: 2px dashed #444444;
+  margin: 32px 0 ;
+  padding: 16px 32px 32px;
+}
+
+@media (min-width: 768px) {
+  .exercise {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+}
+
 .block-left {
   display: inline-block;
   float: left;

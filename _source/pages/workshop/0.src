@@ -18,7 +18,7 @@ O que é desenho? Vamos começar com uma definição bem simples, porém proposi
 Chamemos de desenho uma <strong>representação visual, bidimensional, e manual</strong>. Desnecessário comentar o porquê de desenho ser visual, certo? E vou deixar as indagações sobre bidimensionalidade de lado, pois são complexas, confusas, e desnecessariamente implicantes. Fiquemos apenas com o adjetivo manual. Essa é a característica mais importante aqui. Ela basicamente diz que imprimir uma imagem não é desenhá-la. Ou seja, desenhar implica <strong>usar as suas mãos</strong>. Por favor não me venha com essa de que você apertou um botão com suas mãos para imprimir aquela imagem. Já vai ficar claro o que quero dizer com usar suas mãos. Mas por hora fiquemos com uma comparação simples: uma impressão não é um desenho da mesma forma que esta imagem não é um caximbo.
 </p>
 
-<div class="img-container"><img title="La Trahison des Images, René Magritte, 1928-29" alt="[ La Trahison des Images, René Magritte, 1928-29 ]" src="/assets/la-trahison-des-images.jpg" /></div>
+<div class="img-container"><img title="La Trahison des Images, René Magritte, 1928-29" alt="[ La Trahison des Images, René Magritte, 1928-29 ]" src="${home_url}/assets/la-trahison-des-images.jpg" /></div>
 <p class="img-subtitle"><em>La Trahison des Images, René Magritte, 1928-29. A imagem literalmente diz: "Isso não é um caximbo."</em></p>
 
 <p>
@@ -33,11 +33,11 @@ Vamos nos preocupar com o elemento mais simples: o traço. Você consegue fazer 
 Mas se um desenho é feito de traços, traços são a coisa mais importante com que se preocupar ao desenhar. Todo traço que você fizer, ao desenhar, tem o que chamamos de "informação visual". A informação pode ser bem concreta, como um delimitante de planos, um contorno, uma sombra. Ou pode não ser nada concreta e apenas servir de suporte para uma composição visual abstrata. O importante é saber que seus traços, todos eles, são importantes para o desenho. Nenhum traço deve ser em vão.
 </p>
 
-<div class="img-container"><img title="Desenho é feito de traços, e cada traço tem suas características" alt="[ Desenho é feito de traços, e cada traço tem suas características ]" src="/assets/desenho-traco.png" /></div>
+<div class="img-container"><img title="Desenho é feito de traços, e cada traço tem suas características" alt="[ Desenho é feito de traços, e cada traço tem suas características ]" src="${home_url}/assets/desenho-traco.png" /></div>
 <p class="img-subtitle"><em>Desenho é feito de traços, e cada traço tem suas características.</em></p>
 
 
-<h2>Bem, e daí? Traços são importantes. Yay. E agora?</h2>
+<h2>Traços são importantes. Yay. E agora?</h2>
 
 <p>Qual é a implicação lógica de tudo isso? Bem, se você quer começar a desenhar melhor, sugiro que comece a aperfeiçoar suas capacidades motoras de produzir traços manuais. E também sugiro que aprenda a não desperdiçar seus traços. Eles contém informação não só daquilo que você quer desenhar, mas de sua própria expressão pessoal. Todo mundo faz traços diferentes. É importante que você valorize seus traços! Eles são a base do que faz a sua arte ser sua, e de mais ninguém.</p>
 
@@ -49,30 +49,33 @@ Mas se um desenho é feito de traços, traços são a coisa mais importante com 
 
 <p>Mas você que nunca desenhou e não está acostumado com suas faculdades mecânicas que controlam o seu traço, como você pratica isso? Desenhando, obviamente. Preparei alguns exercícios mais focados neste material para isso. Separei em assuntos, para que você consiga praticar por partes. Você não ganha músculos nas pernas fazendo apenas flexões de braço, certo? Do mesmo jeito que é importante malhar diversos músculos do corpo, é importante que você faça exercícios distintos para praticar diversas habilidades da prática do desenho.</p>
 
+<div class="exercise">
 
-<h2>Exercício 1</h2>
+  <h2>Exercício 1</h2>
 
-<div class="img-container"><img title="Ilustração: Exercício 1" alt="[ Ilustração: Exercício 1 ]" src="/assets/Exercise01.png" /></div>
-<p class="img-subtitle"><em>Encontre uma posição confortável antes de começar!</em></p>
+  <div class="img-container"><img title="Ilustração: Exercício 1" alt="[ Ilustração: Exercício 1 ]" src="${home_url}/assets/Exercise01.png" /></div>
+  <p class="img-subtitle"><em>Encontre uma posição confortável antes de começar!</em></p>
 
-<p>Desenhe três paralelepípedos próximos e não alinhados de maneira ortogonal sobre uma superfície plana na altura de seu peito, a uma distância de um a dois metros. Não use fotos ou sua imaginação ainda. Pegue três caixas, preferencialmente diferentes, e posicione-as sobre uma mesa, e use esse conjunto como referência visual.</p>
+  <p>Desenhe três paralelepípedos próximos e não alinhados de maneira ortogonal sobre uma superfície plana na altura de seu peito, a uma distância de um a dois metros. Não use fotos ou sua imaginação ainda. Pegue três caixas, preferencialmente diferentes, e posicione-as sobre uma mesa, e use esse conjunto como referência visual.</p>
 
-<p>Para que o exercício faça sentido, é importante que você use papel A4 ou A3, e preencha a folha toda. Use linhas contínuas para os contornos, mas não deixa os contornos visíveis no resultado final: preencha cada caixa com um tom diferente. Ou seja, use apenas tonalidades distintas para representar planos distintos. Inclua a superfície no desenho. Use o material que quiser, mas no momento recomenda-se lápis 2B e/ou 4B. Não se preocupe muito com sombra no momento, mas tente se preocupar com as diferenças de luminosidade de cada plano. Evite borracha. Não use o movimento do pulso ou os dedos para desenhar, prefira mover ombro e cotovelo.</p>
+  <p>Para que o exercício faça sentido, é importante que você use papel A4 ou A3, e preencha a folha toda. Use linhas contínuas para os contornos, mas não deixa os contornos visíveis no resultado final: preencha cada caixa com um tom diferente. Ou seja, use apenas tonalidades distintas para representar planos distintos. Inclua a superfície no desenho. Use o material que quiser, mas no momento recomenda-se lápis 2B e/ou 4B. Não se preocupe muito com sombra no momento, mas tente se preocupar com as diferenças de luminosidade de cada plano. Evite borracha. Não use o movimento do pulso ou os dedos para desenhar, prefira mover ombro e cotovelo.</p>
 
-<h4>Dica: aquecimento</h4>
+  <h4>Dica: aquecimento</h4>
 
-<p>Antes de começar é legal aquecer para aumentar confiança nos seus traços. O exercício de aquecimento para esse exercício é fazer linhas retas grandes, sem régua, com o movimento do braço todo. Um jeito é escolher uma direção do papel e traçar retas paralelas com distância de um dedo entre si, de margem a margem, sem interrupção, alternando o sentido. Outro método é escolher dois pontos em partes opostas do papel e tentar traçar uma reta que os una, e repetir para várias duplas de pontos distantes.</p>
+  <p>Antes de começar é legal aquecer para aumentar confiança nos seus traços. O exercício de aquecimento para esse exercício é fazer linhas retas grandes, sem régua, com o movimento do braço todo. Um jeito é escolher uma direção do papel e traçar retas paralelas com distância de um dedo entre si, de margem a margem, sem interrupção, alternando o sentido. Outro método é escolher dois pontos em partes opostas do papel e tentar traçar uma reta que os una, e repetir para várias duplas de pontos distantes.</p>
 
-<h4>Dica: enquadramento e proporção</h4>
+  <h4>Dica: enquadramento e proporção</h4>
 
-<div class="img-container"><img title="Ilustração: Mãos enquadrando formas geométricas sobre uma mesa" alt="[ Ilustração: Mãos enquadrando formas geométricas sobre uma mesa ]" src="/assets/fitting.png" /></div>
-<p class="img-subtitle"><em>Sim, fazer isso ajuda mesmo, por mais ridículo que seja.</em></p>
+  <div class="img-container"><img title="Ilustração: Mãos enquadrando formas geométricas sobre uma mesa" alt="[ Ilustração: Mãos enquadrando formas geométricas sobre uma mesa ]" src="${home_url}/assets/fitting.png" /></div>
+  <p class="img-subtitle"><em>Sim, fazer isso ajuda mesmo, por mais ridículo que seja.</em></p>
 
-<p>Para enquadrar o desenho, use suas mãos para visualizar as margens do papel em relação às caixas. Lembre das proporções das partes em relação às outras partes e também ao próprio espaço vazio: o desenho fica mais simples se você conseguir enxergar que um traço é mais ou menos metade de outro, por exemplo. Evite se mover muito durante o desenho. Afinal, você estará observando de um ângulo e uma posição bem específica no espaço. Movimentar-se significa perder as informações obtidas de proporção e enquadramento. Às vezes usar a visão de um olho em vez do outro já faz diferença! Tome cuidado com essas questões.</p>
+  <p>Para enquadrar o desenho, use suas mãos para visualizar as margens do papel em relação às caixas. Lembre das proporções das partes em relação às outras partes e também ao próprio espaço vazio: o desenho fica mais simples se você conseguir enxergar que um traço é mais ou menos metade de outro, por exemplo. Evite se mover muito durante o desenho. Afinal, você estará observando de um ângulo e uma posição bem específica no espaço. Movimentar-se significa perder as informações obtidas de proporção e enquadramento. Às vezes usar a visão de um olho em vez do outro já faz diferença! Tome cuidado com essas questões.</p>
 
-<h4>Escalando o exercício</h4>
+  <h4>Escalando o exercício</h4>
 
-<p>Faça a mesma coisa com objetos mais complexos. Utilize ainda objetos com muitas retas, e evite formas irregulares por enquanto. Cadeiras simples, bancos, esferas, e afins são recomendados. Faça pelo menos mais dois desenhos assim, além do exercício básico.</p>
+  <p>Faça a mesma coisa com objetos mais complexos. Utilize ainda objetos com muitas retas, e evite formas irregulares por enquanto. Cadeiras simples, bancos, esferas, e afins são recomendados. Faça pelo menos mais dois desenhos assim, além do exercício básico.</p>
+
+</div>
 
 <h3><small class="row">
   <div class="block-left">

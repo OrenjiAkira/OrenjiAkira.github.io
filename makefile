@@ -5,8 +5,12 @@ TESTS=_tests/*.lua
 
 all: dir template css redirect
 
-dir:
+dir: assets
 	./_build/page_folders.sh ${PAGES}
+
+assets:
+	mkdir -pv site/assets/
+	cp _source/assets/* site/assets/
 
 template:
 	./_build/page_template.sh
