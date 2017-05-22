@@ -6,6 +6,7 @@ sufix=".src"
 function recur {
   for file in $@; do
     if [[ -d "$file" ]]; then recur $file"/*"; continue; fi
+    if [[ $file != *$sufix ]]; then continue; fi
 
     rel_path=${file#$prefix}
     rel_path=${rel_path%$sufix}
