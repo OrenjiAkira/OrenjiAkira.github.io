@@ -14,11 +14,15 @@ html {
 
 body {
   background-color: #d8e0e0;
+  padding: 0
   margin: 0;
-  padding: 0 32px;
   font-size: 14px;
   font-family: "Roboto", helvetica, arial, sans-serif;
   line-height: 1.5em;
+}
+
+@media (min-width: 768px) {
+  body { padding: 0 32px; }
 }
 
 img {
@@ -37,7 +41,13 @@ h4 {
 }
 
 .header, .footer {
-  height: 50px;
+  height: 64px;
+}
+
+@media (min-width: 768px) {
+  .header, .footer {
+    height: auto;
+  }
 }
 
 .content {
@@ -45,6 +55,15 @@ h4 {
   background-color: #f0f0f0;
   max-width: 768px;
   margin: 0 auto;
+}
+
+.img-container {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 -32px;
+  overflow: hidden;
+  max-height: 480px;
 }
 
 .block-left {
