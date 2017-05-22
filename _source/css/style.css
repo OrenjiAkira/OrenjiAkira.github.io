@@ -65,6 +65,9 @@ h4 {
   overflow: hidden;
   max-height: 480px;
 }
+.img-subtitle {
+  text-align: center;
+}
 
 .block-left {
   display: inline-block;
