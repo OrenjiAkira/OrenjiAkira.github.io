@@ -5,7 +5,15 @@ sufix=".src"
 
 function recur {
   for file in $@; do
-    if [[ -d "$file" ]]; then recur $file"/*"; continue; fi
+    if [[ -d "$file" ]]; then
+      if [[ "$file" == *"assets"* ]]; then
+        for img in $file"/*"; do
+          echo $img
+          cp $img site/assets/
+        done
+      fi
+      recur $file"/*"
+    fi
     if [[ $file != *$sufix ]]; then continue; fi
 
     rel_path=${file#$prefix}

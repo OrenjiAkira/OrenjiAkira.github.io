@@ -10,7 +10,7 @@ dir: assets
 
 assets:
 	mkdir -pv site/assets/
-	cp _source/assets/* site/assets/
+	#cp _source/assets/* site/assets/
 
 template:
 	./_build/page_template.sh
