@@ -7,7 +7,7 @@ local function applytheme(str, dict)
     print(var, main_dict[var])
     return main_dict[var] or dict[var]
   end)
-  print("applied theme", out)
+  -- print("applied theme", out)
   return out
 end
 
@@ -21,7 +21,7 @@ return function (str)
   end
   dict.page_title = dict.title or "Page Title"
   dict.title = nil
-  dict.page_content = applytheme(content, dict)
+  dict.page_content = require '_deployment.sugar' (applytheme(content, dict))
   dict.__index = dict
   return dict
 end

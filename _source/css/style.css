@@ -62,6 +62,7 @@ h4 {
 
 .img-container {
   position: relative;
+  display: block;
   left: 0;
   right: 0;
   margin: 32px -32px 0;
@@ -74,6 +75,7 @@ h4 {
 }
 
 .exercise {
+  display: block;
   border: 2px dashed #444444;
   border-radius: 16px;
   margin: 32px 0 ;
