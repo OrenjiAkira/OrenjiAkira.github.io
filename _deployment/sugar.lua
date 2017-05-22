@@ -17,6 +17,5 @@ return function(source)
     return "<div class='" .. classes .. "'>" .. text .. "</div>"
   end)
 
-  print(out)
   return out
 end

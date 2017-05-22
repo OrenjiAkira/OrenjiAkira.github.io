@@ -8,7 +8,6 @@ function recur {
     if [[ -d "$file" ]]; then
       if [[ "$file" == *"assets"* ]]; then
         for img in $file"/*"; do
-          echo $img
           cp $img site/assets/
         done
       fi

@@ -7,9 +7,9 @@ all: markdown dir template css redirect
 
 markdown:
 	if luarocks show markdown > out; then \
-		echo "you have markdown, carry on..."; \
+		echo "you have markdown, carry on..."$$'\n'; \
 	else \
-		echo "you do not have markdown, now installing..."; \
+		echo "you do not have markdown, now installing..."$$'\n'; \
 		luarocks install markdown; \
 	fi
 

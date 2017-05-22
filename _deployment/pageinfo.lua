@@ -1,15 +1,6 @@
 
-local main_dict = require 'metainfo'
-
-local function applytheme(str, dict)
-  local out = str:gsub("[$][{].-[}]", function(expr)
-    local var = expr:match("[{](.-)[}]")
-    print(var, main_dict[var])
-    return main_dict[var] or dict[var]
-  end)
-  -- print("applied theme", out)
-  return out
-end
+local site_vars = require '_deployment.site_vars'
+local sugar = require '_deployment.sugar'
 
 return function (str)
   local header = str:match("[-][-][-][\n](.-)[\n][-][-][-]")
@@ -21,7 +12,7 @@ return function (str)
   end
   dict.page_title = dict.title or "Page Title"
   dict.title = nil
-  dict.page_content = require '_deployment.sugar' (applytheme(content, dict))
+  dict.page_content = sugar(site_vars.apply(content, dict))
   dict.__index = dict
   return dict
 end
