@@ -1,0 +1,59 @@
+---
+title: textos
+---
+
+## Sumário
+
++ [1. Contextualização][1.0]
+  + [1.1. Jogo de enfoque narrativo][1.1]
+  + [1.2. Personagens animais antropomórficos][1.2]
++ [2. Memorial descritivo][2.0]
+  + [2.1. Personagens][2.1]
+  + [2.2. Enredo][2.2]
+  + [2.3. Protótipo][2.3]
++ [3. Considerações finais][3.0]
++ [4. Anexos][4.0]
++ [5. Referências][5.0]
+
+[1.0]:#contextualizacao
+[1.1]:#jogo-de-enfoque-narrativo
+[1.2]:#personagens-animais-antropomórficos
+[2.0]:#memorial-descritivo
+[2.1]:#personagens
+[2.2]:#enredo
+[2.3]:#prototipo
+[3.0]:#considerações-finais
+[4.0]:#anexos
+[5.0]:#referencias
+
+
+**1.2.**
+#### Personagens animais antropomórficos
+
+Utilizar animais antropomórficos é uma escolha estilística. Não é original, e não é recente na história humana. A mitologia egípcia, de milênios atrás, já tinha como deuses entidades ilustradas como animais bípedes - com cabeça de animal e corpo humano. Mais recentemente podemos pensar em animações famosas produzidas pela Walt Disney Animation Studios, como _Robin Hood_ e _Zootopia_. Ou ainda a série animada do Netflix, _Bojack Horseman._
+
+Do ponto de vista leigo, essa escolha estilística geralmente parece apelar para o público infantil. Isso está relacionado com o fato de que animações em geral são frequentemente vendidas como infantis, como entreterimento para crianças; e consequentemente como instrumento de venda de brinquedos, como _My Little Pony: Friendship is Magic_. Sendo animais antropomórficos completamente fictícios e inverossímeis no mundo real, é evidente que as produções que os usam são, proeminentemente, animações. É apenas uma correlação: naturalmente que animações não necessariamente são infantis; vide _Bojack Horseman_, uma série repleta de temas sexuais e consumo explícito de drogas ilícitas.
+
+Isso não significa que apenas o campo da animação tenha essa escolha estilística. _Green Fairy_, _Watership Down_, e _The Jungle Book_ são alguns exemplos de histórias sobre animais antropomórficos presentes na literatura. Adianto ainda que, com exceção deste último, não são de literatura infantil. Animais antropomórficos também são utilizados em outras mídias visuais e audiovisuais, como histórias em quadrinhos, e jogos. Exemplos de jogos com animais antropomórficos são _Night in the Woods_, _Undertale_, e _Star Fox Adventures_.
+
+Mas o que leva a essa escolha estilística? Um argumento que escutei reproduzido por um colega é que animais antropomórficos são _mais fáceis de se desenhar._ Achei a afirmação bastante subjetiva. Minha pessoal experiência com a prática do desenho é de que as adaptações anatômicas humano-animal são igualmente difíceis à anatomia humana, e que questões de facilidade ou dificuldade estão no estilo formal do desenhista. Isso inclui a sua interpretação de como adaptar a anatomia animal a expressões humanas, tanto corporais quanto faciais.
+
+O que podemos dizer é que, por animais antropomórficos serem geralmente desenhados cartunescos, por serem mais frequentemente presentes no mundo da ilustração e da animação, suas imagens são mais comumente interpretações abstratas e simplificadas da realidade. Ou seja, as escolhas de estilo de traço e pintura em produções visuais e audiovisuais frequentemente são _propositalmente_ mais fáceis de se reproduzir. Para todas as mídias visuais, a justificativa é que a simplificação formal permite maior expressividade a personagens de anatomia não-humana. Fazer um cachorro sorrir de maneira expressiva e amigável só é possível se o traço for cartunesco, com certa distância da realidade. Para animação a justificativa é ainda mais concreta: quanto mais formalmente simples e fácil de reprodução, menor o tempo de produção de quadros, e portanto menos dinheiro gasto em produção.
+
+Contudo, também é argumentável de que a expressividade de personagens não é prejudicada, senão potencializada pelo uso de características animais. A escolha da hibridização humano-animal facilita a criação de personagens mais visualmente únicos e memoráveis. Analogamente, é comum animações sem animais antropomórficos usarem aspectos animais em personagens humanos para dar-lhes certa característica ou outra.
+
+E essas facilidades poderiam ser motivo suficiente. Estou fazendo um jogo, criando sozinho todo seu material visual. Tarefa esta que geralmente é feita com grandes equipes profissionais. Qualquer facilitador técnico e legítimo ao processo de criação é bem-vindo, e até justificável pelo escopo do projeto. Porém existe outro motivo mais abstrato e pessoal por essa escolha. Este motivo é o _furry fandom_.
+
+Vamos introduzir dois termos estrangeiros: _furry_ (do inglês, "peludo"), e _fandom_ (derivado de "fã"). Vou usar o termo _furry_ como adjetivo e substantivo. Como adjetivo, _furry_ refere-se a algo que contém ou é relacionado a animais antropomórficos. Como substantivo, me referencio a alguém que é fã de mídia _furry_. Ou seja: um _furry_ é um indivíduo que tem interesse em mídia _furry_; em histórias, animações, arte, e jogos com animais antropomórficos. _Furries_ em sua maioria se reconhecem por um alter-ego chamado de _fursona_, uma manifestação de sua identidade como um animal antropomórfico. Essa persona geralmente serve de avatar em perfis virtuais de redes sociais.
+
+Chamamos a esse conjunto de fãs de _furry fandom_. _Fandom_ é outro termo que estou emprestando do inglês. _Fandom_ é um termo utilizado para se referir a uma subcultura de fãs de algum tipo de mídia, seja essa mídia algum esporte, uma série de livros, ou uma série de filmes. Chamamos _fandom_ de subculturas porque são coletivos não organizados de indivíduos que produzem e consomem conteúdo cultural, como arte e literatura. Assim, o _furry fandom_ é uma subcultura de indivíduos interessados na ideia de animais antropomórficos e, consequentemente, em todas as mídias que os utilizam, das mais diversas formas possíveis.
+
+Estabelecidos esses termos, voltemos ao motivo da minha escolha estilística por fazer um jogo _furry_. O motivo motivo técnico já foi descrito: existe uma relativa facilidade de produzir expressividade em personagens animais antropomórficos, e em particular personagens de aparência cartunesca. O outro motivo é o público-alvo do jogo, o _furry fandom_.
+
+Existem milhares, senão milhões de _furries_ no mundo. O que poderia ser característico do _fandom_ que não é característico em outros grupos, ou até mesmo outros _fandoms_? Não fui o primeiro a me perguntar isso. O próprio _fandom_ é autoconsciente da estranheza que causa, e constantemente produz material autorrefencial. É incrivelmente fácil e acessível encontrar pesquisas e ensaios por _furries_, para _furries_, sobre _furries_. Websites como o _Adjective-Species_ são conglomerados de textos, referências, e links sobre o assunto. O IARP _(International Anthropomorphic Reasearch Project)_, responsável pelo website _FurScience_, inclusive publicou um livro chamado _Fur Science! A Summary of Five Years of Research from the International Anthropomorphic Research Project_, que é um sumário de cinco anos de pesquisas do _fandom_ sobre os mais variados assuntos.
+
+Uma das questões mais frequentes e relevantes que encontrei foi a presença LGBT no _fandom_. Na publicação do IARP, é possível ver evidência estatística disso: dos respondentes, por volta de apenas 27% responderam como exclusivamente heterossexuais. Mais ainda, a esse número foi contrastado com a identidade sexual das _fursonas_ dos mesmos respondentes. Foi vista significativa disparidade entre a identidade sexual de indivíduos heterossexuais e bissexuais, em contraste à quantidade _fursonas_ heterossexuais e bissexuais. Enquanto as _fursonas_ que eram exclusivamente heterossexuais significavam por volta de 18% dos respondentes, e _fursonas_ bissexuais por volta de 22%, a quantidade de respostas sobre a identidade sexual dos respondentes em si era por volta de 27% exclusivamente heterossexual, e por volta de 14% bissexual. Dada que a variança não foi tão grande em outros grupos, como os exclusivamente homossexuais, os autores teorizam que, dada a estigma social negativa da homossexualidade, muitos respondentes usam suas _fursonas_ como meio de expressão pessoal de sua sexualidade real. E logo muitos dos respondentes que se indentificaram como heretossexuais possivelmente eram, na realidade, bissexuais.
+
+Independentemente da porcentagem exata de heterossexuais no _fandom_, esses números indicam que são, provavelmente, algo entre 18% e 27%. O _furry fandom_ é, por experiência própria e por esses números, um espaço de fortíssima presença LGBT. Agouti Rex escreveu um excelente ensaio chamado _Why Nerds Hate Furries_ sobre a marginalização dos _furries_ em relação a outros _fandoms_ de forte presença na Internet, em que argumenta que essa presença LGBT foi apenas possivel graças a _falta de afiliação com alguma marca comercial específica_, como a Marvel ou a Disney. Enquanto outros _fandoms_ se espelham em obras de alta visibilidade e heteronormativas, _furries_ não possuem nenhum nome comercial específico com o qual se associar; e portanto produzem de maneira bem mais frequente conteúdo original independente. Segundo Rex, essa independência comercial lhes permitiu produzir e publicar conteúdo deliberadamente LGBT, o que naturalmente atraiu a comunidade para o _fandom_. Não que outros _fandoms_ não produzam material LGBT. Aliás _slash-fiction_ (também conhecido como "fan-fiction erótica", notoriamente homossexual) já existia no _fandom_ de _Star Trek_, nos anos 1960, com mulheres fãs escrevendo histórias de romance entre Kirk e Spock. Em outros _fandoms_, contudo, a comunidade ainda é bastante heteronormativa, pelo simples fato de que o conteúdo que seguem também é heteronormativo. Escritores de _slash-fiction_ são comumente vistos como delusionais, e são facilmente marginalizados pelos autores do conteúdo canônico. _Furries_ acompanham conteúdo _furry_, que a comunidade produz por si só. Não há necessidade de _slash-fiction_. O conteúdo original já é, em grande parte, LGBT.
+
+Sendo assim, é de meu interesse contribuir para o _fandom_. Tanto pela minha própria curiosidade e gosto pessoal pela estética de animais antropomóficos, quanto pela minha condição como membro da comunidade LGBT. O _fandom_ é um lugar de acolhimento e aceitação, e é assim graças ao conteúdo que produz, e às pessoas que o produzem. Desde obras com mensagens sobre aceitação, como os romances de Kyell Gold, _Green Fairy_ e _Waterways_; até mídias que simplesmente oferece representação natural e não-heteronormativa, como os jogos _Night in the Woods_ e _Undertale_. Produzir conteúdo LGBT para a comunidade é contribuir para esse sentimento, por mais pequena que a contribuição seja em um mar de conteúdo. É importante lembrar que este mar é apenas grande na comunidade _furry_, e que infelizmente é apenas um tímido córrego no mundo real, e em outros _fandoms_.
